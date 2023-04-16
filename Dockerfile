@@ -1,3 +1,3 @@
 FROM busybox
-COPY ./README.MD /README.MD
+COPY README.MD ./
 CMD ["echo /readme.txt"]
